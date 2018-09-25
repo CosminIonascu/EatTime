@@ -1,0 +1,19 @@
+{
+  "name": "eattime",
+  "version": "1.0.0",
+  "description": "An app that allows restaurants owner to add special offers for Softvision",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CosminIonascu/EatTime.git"
+  },
+  "author": "Daniel Fenesi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CosminIonascu/EatTime/issues"
+  },
+  "homepage": "https://github.com/CosminIonascu/EatTime#readme"
+}
