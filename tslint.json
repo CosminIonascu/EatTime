@@ -7,3 +7,12 @@
     "rules": {},
     "rulesDirectory": []
 }
+
+please add   "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-microsoft-contrib",
+    "tslint-eslint-rules",
+    "tslint-config-prettier",
+    "tslint-config-security"
+  ], add install all those libraries with npm install --save -dev package_name
