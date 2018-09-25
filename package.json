@@ -4,7 +4,8 @@
   "description": "An app that allows restaurants owner to add special offers for Softvision",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --open"
   },
   "repository": {
     "type": "git",
@@ -21,15 +22,25 @@
     "@types/react-dom": "^16.0.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "styled-components": "^3.4.9",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-config-security": "^1.5.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-microsoft-contrib": "^5.2.1",
+    "tslint-react": "^3.6.0",
     "webpack": "^4.20.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.2",
+    "babel-plugin-styled-components": "^1.7.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
     "source-map-loader": "^0.2.4",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
   }
 }
