@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/CosminIonascu/EatTime/issues"
   },
-  "homepage": "https://github.com/CosminIonascu/EatTime#readme"
+  "homepage": "https://github.com/CosminIonascu/EatTime#readme",
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "webpack": "^4.20.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.3"
+  }
 }
